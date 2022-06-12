@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #bbb;
+    background-color: #333;
 }
 
 a {
@@ -140,12 +140,15 @@ a {
 .card {
     border: solid 1px #333;
     border-radius: 10px;
+    margin: 0 10px;
     margin-bottom: 2em;
     background: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
 }
 
 .card img {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
 }
