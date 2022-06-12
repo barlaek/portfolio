@@ -39,6 +39,7 @@ a {
     display: block;
     font-size: 2em;
     padding: 10px 20px;
+    text-decoration: none;
 }
 
 .header .menu {
@@ -156,9 +157,36 @@ a {
 }
 
 .card-text {
-    margin: 18px;
+    margin: 1.5rem 3rem;
+}
+
+.btn-cont {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-btn {
-    
+    padding: .5rem 2rem;
+    background: #333;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-right: .5rem;
+    margin-bottom: 1rem;
+    transition: background .2s ease-out;
+    text-decoration: none;
+}
+
+.card-btn:hover {
+    background: #fff;
+    color: #333;
+    transition: background .2s ease-out;
+}
+
+@media (min-width: 330px) {
+    .btn-cont {
+        flex-direction: row;
+    }
 }
