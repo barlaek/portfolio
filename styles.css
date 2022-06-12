@@ -126,3 +126,26 @@ a {
         display: none;
     }
 }
+
+/* card container */
+
+.port-con {
+    display: flex;
+    flex-direction: column;
+    max-width: 48em;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.card {
+    border: solid 1px #333;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    background: #fff;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
